@@ -29,22 +29,20 @@ const carouselData = [
   },
 ];
 
-const CarouselComponent: React.FC = () => {
+const carousel = () => {
   return (
     <div className=" lg:w-[1152px] sm:w-[360px] sm:p-0 flex flex-col gap-12 ">
- 
+
       <Carousel>
         <div className="flex gap-6">
-        
+
           {carouselData.map((item, index) => (
             <div
               key={item.id}
               className={`flex-shrink-0 w-full
                 sm:w-full
                  lg:w-[33%]
-              ${
-                  index > 0 ? "hidden lg:block" : "" 
-                }`}
+              ${index > 0 ? "hidden lg:block" : ""}`}
             >
               <Card data={item} />
             </div>
@@ -52,13 +50,13 @@ const CarouselComponent: React.FC = () => {
         </div>
       </Carousel>
 
-     
+
       <div className="w-full flex justify-between items-center mt-4">
         <Image src="/icon/Slider Dots.svg" width={111} height={49} alt="Dots" />
-        <Image src="/icon/Slider Buttons.svg" width={111} height={49} alt="Arrows"  />
+        <Image src="/icon/Slider Buttons.svg" width={111} height={49} alt="Arrows" />
       </div>
     </div>
   );
-};
+}
 
-export default CarouselComponent;
+export default carousel
