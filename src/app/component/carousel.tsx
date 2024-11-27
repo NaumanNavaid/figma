@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel } from "@/components/ui/carousel"; // Assuming Carousel from ShadCN is imported
+import { Carousel } from "@/components/ui/carousel"; 
 import Card from "./card";
 import Image from "next/image";
 const carouselData = [

@@ -12,10 +12,10 @@ const Navbar = () => {
 
   return (
     <div className="mt-3 sm:mt-0 flex items-center w-screen justify-between px-6 lg:px-16 h-[72px] bg-[#F7F7F7] border-t border-b border-[#676767] relative z-10">
-      {/* Logo */}
+     
       <Image src="/icon/Ddsgnr.svg" width={132} height={42} alt="Ddsgnr" />
 
-      {/* Desktop Menu Links */}
+   
       <ul className="hidden lg:flex space-x-16">
         <li>
           <Link href="#" className="text-black hover:underline">

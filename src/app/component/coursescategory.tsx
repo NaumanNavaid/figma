@@ -9,7 +9,7 @@ const CoursesCategory = () => {
 
   return (
     <div className="mb-[64px] text-center">
-      {/* Header Section */}
+    
       <div className="lg:m-20 flex-col sm:px-0 lg:px-40 sm:m-5">
         <h1 className="font-bold lg:text-[48px] sm:mb-3 sm:text-[32px] text-center">
           Explore Courses By Category
@@ -19,9 +19,8 @@ const CoursesCategory = () => {
         </p>
       </div>
 
-      {/* Courses Section */}
       <div className="lg:grid bg-white lg:grid-cols-3 lg:gap-6 sm:flex sm:flex-col sm:gap-8 items-center justify-center">
-        {/* First 3 Courses (Always Visible) */}
+        
         <div className="flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4">
           <Image src="/courses/course 1.svg" width={100} height={100} alt="Design & Development" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
@@ -52,7 +51,6 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Additional Courses (Controlled by showAllSm) */}
         <div className={`
           flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
           ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex

@@ -9,7 +9,7 @@ const Team= () => {
 
   return (
     <div className="bg-[#F7F7F7]">
-      {/* Header */}
+\
       <div className="py-28 px-16 sm:items-center">
         <h1 className="font-bold lg:text-5xl sm:text-3xl text-center mb-10">
           Our Team
@@ -19,9 +19,8 @@ const Team= () => {
         </p>
       </div>
 
-      {/* Team Members */}
       <div className="sm:items-center flex sm:flex-col lg:grid lg:grid-cols-3 gap-16">
-        {/* Team Member 1 */}
+
         <div className="w-[395px] h-[210px] justify-items-center">
           <Image src="/Images/team1.svg" width={80} height={80} alt="" />
           <h1 className="mt-5 mb-1 font-semibold text-xl">James Nduku</h1>
@@ -39,7 +38,6 @@ const Team= () => {
           </div>
         </div>
 
-        {/* Team Member 2 */}
         <div className="w-[395px] h-[210px] justify-items-center">
           <Image src="/Images/team2.svg" width={80} height={80} alt="" />
           <h1 className="mt-5 mb-1 font-semibold text-xl">Joseph Munyambu</h1>
@@ -75,7 +73,6 @@ const Team= () => {
           </div>
         </div>
 
-        {/* Team Member 4 (Hidden on small screens) */}
         <div
           className={`w-[395px] h-[210px] justify-items-center ${
             !showAll ? "hidden lg:block" : ""

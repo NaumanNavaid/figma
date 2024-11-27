@@ -20,7 +20,7 @@ const Home  = () => {
                 <h1 className='md:pl-20 sm:pl-0   sm:text-[40px] md:text-[54px] font-bold'>
                      Learn new skills <br />online with ease
                  </h1>
-                 <p className=' md:pl-[69px] sm:pl-0 sm:m-0 sm:mt-2  text-lg font-normal  sm:w-[360px] lg:w-[520px] h-[54px] m-4 '>
+                 <p className=' md:pl-[69px] sm:pl-0 sm:m-0 sm:mt-2  text-lg font-normal  sm:w-[320px] lg:w-[520px] h-[54px] m-4 '>
                     Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
  
                 <div className='flex-row space-x-4 md:pl-20 mt-10'>

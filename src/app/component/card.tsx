@@ -2,23 +2,23 @@ import React from "react";
 import Image from "next/image";
 interface CardProps {
   data: {
-    profileImage: string; // URL for profile image
+    profileImage: string; 
     name: string;
     role: string;
     description: string;
-    stars: number; // Number of stars to display
+    stars: number; 
   };
 }
 
 const Card: React.FC<CardProps> = ({ data }) => {
   return (
     <div className="lg:w-[343px] h-[322px] bg-white border  border-black flex flex-col gap-6 p-8">
-      {/* Stars Section - Use images */}
+ 
       <div className="flex ">
         {[...Array(data.stars)].map((_, index) => (
           <Image
             key={index}
-            src="/icon/Stars.svg" // Replace with your actual star image path
+            src="/icon/Stars.svg" 
             alt={`Star ${index + 1}`}
            width={116}
            height={19}
