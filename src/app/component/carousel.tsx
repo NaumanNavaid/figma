@@ -52,7 +52,7 @@ const CarouselComponent: React.FC = () => {
         </div>
       </Carousel>
 
-      {/* Dots and Arrows */}
+     
       <div className="w-full flex justify-between items-center mt-4">
         <Image src="/icon/Slider Dots.svg" width={111} height={49} alt="Dots" />
         <Image src="/icon/Slider Buttons.svg" width={111} height={49} alt="Arrows"  />
