@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "@/components/ui/carousel"; // Assuming Carousel from ShadCN is imported
 import Card from "./card";
-
+import Image from "next/image";
 const carouselData = [
   {
     id: 1,
@@ -54,8 +54,8 @@ const CarouselComponent: React.FC = () => {
 
       {/* Dots and Arrows */}
       <div className="w-full flex justify-between items-center mt-4">
-        <img src="/icon/Slider Dots.svg" width={111} height={49} alt="Dots" />
-        <img src="/icon/Slider Buttons.svg" width={111} height={49} alt="Arrows"  />
+        <Image src="/icon/Slider Dots.svg" width={111} height={49} alt="Dots" />
+        <Image src="/icon/Slider Buttons.svg" width={111} height={49} alt="Arrows"  />
       </div>
     </div>
   );

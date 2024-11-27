@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 interface CardProps {
   data: {
     profileImage: string; // URL for profile image
@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
       {/* Stars Section - Use images */}
       <div className="flex ">
         {[...Array(data.stars)].map((_, index) => (
-          <img
+          <Image
             key={index}
             src="/icon/Stars.svg" // Replace with your actual star image path
             alt={`Star ${index + 1}`}
@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
       </div>
 
       <div className="flex items-start ">
-        <img
+        <Image
           src={data.profileImage}
           alt={data.name}
           className="w-14 h-14 "
