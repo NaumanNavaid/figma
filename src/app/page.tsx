@@ -178,12 +178,16 @@ Trusted by the world&#39;s best companies <br />[social proof to build credibili
       </div>
     </div>
   </div>
+  <button
+       className="sm:ml-[140px] mt-14 sm:block lg:hidden border py-3 px-6 rounded-[5px] border-black "
+        onClick={() => setShowAll(!showAll)} >
+      {showAll ? "Hide All" : "View All"} Courses
+   </button>
 
   <button 
-   onClick={() => setShowAll(!showAll)}  
-  className="sm:ml-[80px] mt-14 border py-3 px-6 rounded-[5px] border-black">
-     {showAll ? "Hide All " : "View All "}
-    Courses
+  className=" mt-14 border py-3 px-6 rounded-[5px] border-black sm:hidden lg:block">
+    
+     View All Courses
   </button>
 </div>
 

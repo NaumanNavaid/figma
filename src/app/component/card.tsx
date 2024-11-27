@@ -20,7 +20,8 @@ const Card: React.FC<CardProps> = ({ data }) => {
             key={index}
             src="/icon/Stars.svg" // Replace with your actual star image path
             alt={`Star ${index + 1}`}
-            className="w-[116px] h-[19px]"
+           width={116}
+           height={19}
           />
         ))}
       </div>
@@ -34,7 +35,8 @@ const Card: React.FC<CardProps> = ({ data }) => {
         <Image
           src={data.profileImage}
           alt={data.name}
-          className="w-14 h-14 "
+          width={56}
+          height={56}
         />
         <div className="ml-4 ">
           <p className="font-semibold  text-base text-black">{data.name}</p>

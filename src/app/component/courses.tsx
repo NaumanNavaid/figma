@@ -35,7 +35,7 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Design</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
                 5.0
               </p>
             </div>
@@ -68,7 +68,7 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Programming</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
                 5.0
               </p>
             </div>
@@ -101,7 +101,7 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Business</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
                 5.0
               </p>
             </div>
@@ -136,7 +136,7 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Art</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
                 5.0
               </p>
             </div>
@@ -170,7 +170,7 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Law</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
                 5.0
               </p>
             </div>
@@ -205,8 +205,8 @@ const Courses = () => {
             <div className="flex justify-between font-semibold text-base mt-6 mb-2">
               <p>Tech</p>
               <p className="flex gap-1 mr-4">
-                <Image src="/icon/star.svg" width={24} height={24} alt="star" />
-                5.0
+              <Image src="/icon/Star.svg" width={24} height={24} alt="star" />
+                  5.0
               </p>
             </div>
             <div>
