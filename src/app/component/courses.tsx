@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const courses = () => {
+const Courses = () => {
   const [showAll, setShowAll] = useState(false);
 
   return (
@@ -241,4 +241,4 @@ const courses = () => {
   );
 };
 
-export default courses;
+export default Courses;
