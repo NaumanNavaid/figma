@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState } from "react";
@@ -6,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CoursesCategory = () => {
-  const [showAll, setShowAll] = useState(false);
+  const [showAllSm, setShowAllSm] = useState(false);
 
   return (
     <div className="mb-[64px] text-center">
@@ -21,10 +20,10 @@ const CoursesCategory = () => {
       </div>
 
       {/* Courses Section */}
-      <div className="lg:grid bg-white lg:grid-cols-3 lg:gap-6 flex sm:flex-col sm:gap-8 items-center justify-center">
-        {/* Course 1 */}
+      <div className="lg:grid bg-white lg:grid-cols-3 lg:gap-6 sm:flex sm:flex-col sm:gap-8 items-center justify-center">
+        {/* First 3 Courses (Always Visible) */}
         <div className="flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4">
-          <Image src="/courses/course 1.svg" width={100} height={100} alt="course 1" />
+          <Image src="/courses/course 1.svg" width={100} height={100} alt="Design & Development" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Design & Development
@@ -33,9 +32,8 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 2 */}
         <div className="flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4">
-          <Image src="/courses/course 2.svg" width={100} height={100} alt="course 2" />
+          <Image src="/courses/course 2.svg" width={100} height={100} alt="Marketing" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Marketing
@@ -44,9 +42,8 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 3 */}
         <div className="flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4">
-          <Image src="/courses/course 3.svg" width={100} height={100} alt="course 3" />
+          <Image src="/courses/course 3.svg" width={100} height={100} alt="Development" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Development
@@ -55,9 +52,12 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 4 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 4.svg" width={100} height={100} alt="course 4" />
+        {/* Additional Courses (Controlled by showAllSm) */}
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 4.svg" width={100} height={100} alt="Communication" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Communication
@@ -66,9 +66,11 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 5 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 5.svg" width={100} height={100} alt="course 5" />
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 5.svg" width={100} height={100} alt="Digital Marketing" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Digital Marketing
@@ -77,9 +79,11 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 6 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 6.svg" width={100} height={100} alt="course 6" />
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 6.svg" width={100} height={100} alt="Self Development" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Self Development
@@ -88,9 +92,11 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 7 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 7.svg" width={100} height={100} alt="course 7" />
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 7.svg" width={100} height={100} alt="Business" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Business
@@ -99,9 +105,11 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 8 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 8.svg" width={100} height={100} alt="course 8" />
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 8.svg" width={100} height={100} alt="Finance" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Finance
@@ -110,9 +118,11 @@ const CoursesCategory = () => {
           </div>
         </div>
 
-        {/* Course 9 */}
-        <div className={`flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 ${!showAll ? "hidden lg:block" : ""}`}>
-          <Image src="/courses/course 9.svg" width={100} height={100} alt="course 9" />
+        <div className={`
+          flex sm:w-[320px] lg:w-[411px] h-[132px] bg-[#F7F7F7] rounded-md p-4 
+          ${showAllSm ? 'sm:flex' : 'sm:hidden'} lg:flex
+        `}>
+          <Image src="/courses/course 9.svg" width={100} height={100} alt="Consulting" />
           <div className="lg:p-6 sm:pl-4 sm:p-0 sm:pt-6">
             <Link href="#" className="font-semibold lg:text-xl sm:text-base">
               Consulting
@@ -122,23 +132,17 @@ const CoursesCategory = () => {
         </div>
       </div>
 
-      {/* Buttons */}
-      <div className="mt-14">
+
+      <div className="mt-14 flex items-center justify-center">
         <button
-          onClick={() => setShowAll(!showAll)}
-          className="sm:ml-[80px] border py-3 px-6 rounded-[5px] border-black lg:hidden"
+          onClick={() => setShowAllSm(!showAllSm)}
+          className="sm:ml-[80px] border py-3 px-6 rounded-[5px] border-black sm:block lg:block"
         >
-          {showAll ? "Hide All " : "View All "} Courses
+          {showAllSm ? "Hide" : "View All"} Courses
         </button>
-        <div className="flex items-center justify-center">
-        <button className="sm:hidden lg:grid border py-3 px-6 rounded-[5px] border-black">
-          View All Courses
-        </button>
-        </div>
       </div>
     </div>
   );
 };
 
 export default CoursesCategory;
-
