@@ -7,7 +7,7 @@ import { type CarouselApi } from "@/components/ui/carousel"
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 
-const carousel = () => {
+const MyCarousel = () => {
   const [api, setApi] = useState<CarouselApi>()
   const [current, setCurrent] = useState(0)
 
@@ -241,4 +241,4 @@ const carousel = () => {
   )
 }
 
-export default carousel
+export default MyCarousel
