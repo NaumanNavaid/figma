@@ -81,6 +81,17 @@ const Team= () => {
           <Image src="/Images/team4.svg" width={80} height={80} alt="" />
           <h1 className="mt-5 mb-1 font-semibold text-xl">Erick Kipkemboi</h1>
           <p className="font-normal text-lg mb-5">Web Designer</p>
+          <div className="flex gap-[14px]">
+            <Link href="#">
+              <Image src="/icon/LinkedIn.svg" width={24} height={24} alt="LinkedIn" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Twitter.svg" width={24} height={24} alt="Twitter" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Dribble.svg" width={24} height={24} alt="Dribble" />
+            </Link>
+          </div>
         </div>
 
         <div
@@ -91,6 +102,17 @@ const Team= () => {
           <Image src="/Images/team5.svg" width={80} height={80} alt="" />
           <h1 className="mt-5 mb-1 font-semibold text-xl">Stephen Kerubo</h1>
           <p className="font-normal text-lg mb-5">President of Sales</p>
+          <div className="flex gap-[14px]">
+            <Link href="#">
+              <Image src="/icon/LinkedIn.svg" width={24} height={24} alt="LinkedIn" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Twitter.svg" width={24} height={24} alt="Twitter" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Dribble.svg" width={24} height={24} alt="Dribble" />
+            </Link>
+          </div>
         </div>
 
         <div
@@ -101,6 +123,17 @@ const Team= () => {
           <Image src="/Images/team6.svg" width={80} height={80} alt="" />
           <h1 className="mt-5 mb-1 font-semibold text-xl">John Leboo</h1>
           <p className="font-normal text-lg mb-5">Dog Trainer</p>
+          <div className="flex gap-[14px]">
+            <Link href="#">
+              <Image src="/icon/LinkedIn.svg" width={24} height={24} alt="LinkedIn" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Twitter.svg" width={24} height={24} alt="Twitter" />
+            </Link>
+            <Link href="#">
+              <Image src="/icon/Dribble.svg" width={24} height={24} alt="Dribble" />
+            </Link>
+          </div>
         </div>
       </div>
 

@@ -15,15 +15,15 @@ const Courses = () => {
       </div>
 
       <div className="flex justify-center gap-6 text-center">
-        <p className="hover:underline hover:text-black hover:underline-offset-1">Popular</p>
-        <p className="hover:underline hover:text-black hover:underline-offset-1">Recommended</p>
-        <p className="hover:underline hover:text-black hover:underline-offset-1">Best Price</p>
+        <Link className="hover:underline hover:text-black hover:underline-offset-1" href={'#'}>Popular</Link>
+        < Link className="hover:underline hover:text-black hover:underline-offset-1" href={'#'}>Recommended</Link>
+        <Link  className="hover:underline hover:text-black hover:underline-offset-1" href={'#'}>Best Price</Link>
       </div>
 
    
       <div className="mt-14 mb-14 lg:grid lg:grid-cols-3 gap-12 sm:flex sm:flex-col sm:justify-center sm:items-center">
  
-        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[550px] sm:w-[300px] sm:h-[500px]">
+        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[300px] sm:h-[500px]">
           <Image
             src="/Images/course 1.svg"
             width={416}
@@ -57,7 +57,7 @@ const Courses = () => {
         </div>
 
      
-        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[534px] sm:w-[320px] sm:h-[500px]">
+        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[300px] sm:h-[500px]">
           <Image
             src="/Images/course 2.svg"
             width={416}
@@ -90,7 +90,7 @@ const Courses = () => {
         </div>
 
      
-        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[534px] sm:w-[320px] sm:h-[530px]">
+        <div className="bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[300px] sm:h-[500px]">
           <Image
             src="/Images/course 3.svg"
             width={416}
@@ -123,7 +123,7 @@ const Courses = () => {
         </div>
 
       
-        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[534px] sm:w-[320px] sm:h-[500px] ${
+        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[320px] sm:h-[500px] ${
             !showAll ? "hidden lg:block" : ""
           }`}>
           <Image
@@ -157,7 +157,7 @@ const Courses = () => {
           </div>
         </div>
 
-        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[534px] sm:w-[320px] sm:h-[500px] ${
+        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[320px] sm:h-[500px] ${
             !showAll ? "hidden lg:block" : ""
           }`}>
           <Image
@@ -192,7 +192,7 @@ const Courses = () => {
         </div>
 
        
-        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[534px] sm:w-[320px] sm:h-[500px] ${
+        <div className={`bg-[#F7F7F7] lg:w-[416px] lg:h-[580px] sm:w-[320px] sm:h-[500px] ${
             !showAll ? "hidden lg:block" : ""
           }`}>
           <Image
