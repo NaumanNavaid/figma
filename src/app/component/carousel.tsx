@@ -39,7 +39,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
@@ -69,7 +69,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+              <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
@@ -99,7 +99,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+              <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
@@ -129,7 +129,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+              <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
@@ -159,7 +159,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+              <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
@@ -189,7 +189,7 @@ const MyCarousel = () => {
               </div>
 
               <div className="text-start">
-                <p className="text-black font-normal text-lg">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+              <p className="text-black font-normal text-lg">&quot; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.&quot; </p>
               </div>
 
               <div className="flex items-start">
